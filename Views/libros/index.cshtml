@@ -1,0 +1,22 @@
+@model List<BibliotecaWeb.Models.Libro>
+
+<h1>Lista de Libros</h1>
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Año</th>
+    </tr>
+
+    @foreach (var libro in Model)
+    {
+        <tr>
+            <td>@libro.Id</td>
+            <td>@libro.Titulo</td>
+            <td>@libro.Autor</td>
+            <td>@libro.Anio</td>
+        </tr>
+    }
+</table>
