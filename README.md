@@ -16,3 +16,5 @@ Aplicación web básica desarrollada con ASP.NET Core MVC para gestionar libros.
 ## Ejecución
 ```bash
 dotnet run
+Ruta principal
+/Libros
